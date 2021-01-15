@@ -1,0 +1,166 @@
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .intro_page_service h3{
+        width: 250px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    html{
+        font-size: 55%;
+    }
+    img.video_bg{
+        width: 100%;
+    }
+    img.dot_img{
+        display: none;
+    }
+    .intro_page_title h1{
+    font-size: 4.8rem;
+} 
+.intro_page_top p{
+    font-size: 2.5rem;
+}
+a.video_popup img{
+    width: 90px;
+}
+.intro_page_service p{
+    width: 450px;
+    margin: auto;
+}
+.intro_page_service h1{
+    margin-bottom: 20px;
+}
+.chat_icon a img{
+    width: 80px;
+}
+.check_img {
+    position: absolute;
+    right: -15px;
+    top: -16px;
+    transform: scale(.7);
+}
+.intro_page_title { 
+    position: relative;
+    padding-right: 50px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    html{
+        font-size: 50%;
+    }
+    section.intro_page{
+    padding-top: 50px;
+}
+    img.video_bg{
+        width: 100%;
+    }
+    img.dot_img{
+        display: none;
+    }
+    .intro_page_title h1{
+    font-size: 2.8rem;
+    margin-bottom: 5px;
+}
+.logo{
+    margin-bottom: 30px;
+}
+.intro_page_title{
+    display: unset;
+}
+.check_img img{
+    width: 50px;
+    margin-bottom: 20px;
+    animation: none;
+    top: 7px;
+}
+.intro_page_top p{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+a.video_popup img{
+    width: 50px;
+}
+.intro_page_service p{
+    width: 300px;
+    margin: auto;
+}
+.intro_page_service h1{
+    margin-bottom: 10px;
+    font-size: 6rem;
+}
+.chat_icon a img{
+    width: 50px;
+}
+.intro_page_service h3{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.chat_icon{
+    padding-right: 15px;
+}
+.intro_page_service{
+    margin-bottom: 20px;
+}
+img.is_border{
+    margin-bottom: 7px;
+}
+
+
+.str.str_2{
+    left: 127px;
+}
+.str_4{
+    top: -2px;
+    left: 64px;
+}
+svg.cks {
+    width: 118px;
+    height: 100px; 
+}
+.str_3{    left: 85px;}
+.check_img {
+    width: 140px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    transform: scale(.5);
+}
+.meter-1 { 
+    transform: rotate(-8deg) translate(11px, -4px); 
+}
+.ckbed:after { 
+    top: 10px; 
+}
+.video-popUp iframe {
+    width: 100%;
+    height: auto;
+}
+
+
+
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.container {width:450px}
+
+.check_img img{
+    margin-bottom: 0;
+}
+.chat_icon{
+    padding-right: 50px;
+}
+.intro_page_title h1{
+    font-size: 3rem;
+}
+
+}
