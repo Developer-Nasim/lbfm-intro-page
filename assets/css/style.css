@@ -14,6 +14,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	min-height: 100vh;
 }
 .img {
 	max-width: 100%;
@@ -175,7 +176,9 @@ label {
 
 
 /* Section css Start ===========*/
-
+main {
+    background: gray;
+}
 section.intro_page {
     background: black;
     padding: 60px 0;
@@ -184,7 +187,11 @@ section.intro_page {
     position: relative;
     z-index: 2;
 }
-
+section.intro_page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 img.text_bg {
     position: absolute;
     width: 100%;
